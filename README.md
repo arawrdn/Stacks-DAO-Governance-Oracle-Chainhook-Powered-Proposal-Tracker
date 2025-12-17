@@ -1,2 +1,11 @@
-# Stacks-DAO-Governance-Oracle-Chainhook-Powered-Proposal-Tracker
-A specialized governance monitoring tool that transforms on-chain DAO activities into real-time executable actions. By tracking specific print events from a Clarity governance contract, this system automatically updates an off-chain dashboard or triggers automated bot notifications (like Discord or Telegram) as soon as a proposal is created.
+# Stacks DAO Governance Oracle
+
+The Stacks DAO Governance Oracle is a bridge between the decentralized governance layer on the Stacks blockchain and real-time off-chain communication platforms. It automates the monitoring of voting activities and proposal lifecycles using the Stacks Chainhook infrastructure.
+
+This project enables developers to build highly responsive DAO interfaces where governance participation is tracked and broadcasted instantly to the community.
+
+Key components:
+
+1.  **Clarity Governance Contract:** A smart contract managing proposal logic and emitting state-change events.
+2.  **Chainhook Client:** A registration script that sets up filters for governance-specific event topics.
+3.  **Webhook Server:** A backend listener that receives on-chain governance updates and broadcasts them to off-chain APIs.
