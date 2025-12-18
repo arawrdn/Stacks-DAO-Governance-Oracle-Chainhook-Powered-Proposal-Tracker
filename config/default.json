@@ -1,0 +1,20 @@
+{
+  "chainhook": {
+    "url": "https://chainhook.stacks.co/mainnet/events",
+    "network": "mainnet"
+  },
+  "governance": {
+    "address": ""
+  },
+  "monitor": {
+    "pollInterval": 15,
+    "outputMode": "console"
+  },
+  "alert": {
+    "discordWebhook": "",
+    "telegram": {
+      "botToken": "",
+      "chatId": ""
+    }
+  }
+}
