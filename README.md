@@ -9,3 +9,11 @@ Key components:
 1.  **Clarity Governance Contract:** A smart contract managing proposal logic and emitting state-change events.
 2.  **Chainhook Client:** A registration script that sets up filters for governance-specific event topics.
 3.  **Webhook Server:** A backend listener that receives on-chain governance updates and broadcasts them to off-chain APIs.
+
+## Roadmap
+
+1. Finalize proposal tracker and Chainhook integration  
+2. Add notification and webhook features  
+3. Build simple frontend dashboard  
+4. Improve performance and testing  
+5. Publish documentation and open for community contributions.
